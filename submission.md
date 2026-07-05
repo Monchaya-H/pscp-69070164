@@ -14,25 +14,28 @@
 
 หมายเลข/ชื่อโจทย์ OJ:
 
-```2996
+```text
+OJ2996
 
 ```
 
 OJ submission ID ถ้ามีการส่งแล้ว:
 
-```text543115
+```text
+543115
 
 ```
 
 สถานะ OJ:
 
-```textPass
-Pass / Not Pass / Not Submit
+```text
+Pass
 ```
 
 เวลาที่ใช้คิดและทำโจทย์ด้วยตนเอง:
 
-```text15-30 minutes
+```text
+15-30 minutes
 
 ```
 
@@ -72,7 +75,11 @@ More than 4 weeks
 
 ถ้ายังไม่เข้าใจโจทย์ทั้งหมด ให้เขียนสิ่งที่เข้าใจในตอนนี้ ความเข้าใจอาจยังไม่ครบหรืออาจผิดได้ แต่ต้องพยายามอธิบายอย่างจริงใจ
 
-```textโจทย์นี้ต้องการให้สลับตำแหน่งของตัวอักษร Input:โปรแกรมรับข้อความ 5 ตัวอักษร Output:โปรแกรมควรแสดงผลเป็นการสลับตัวอักษรตัวหน้าไปที่ตัวท้ายและตัวท้ายต้องมาอยู่ในตำแหน่งของตัวหน้า Constraints: Outputต้องเป็นตัวอักษรตัวเล็กเท่านั้น
+```text
+โจทย์นี้ต้องการให้สลับตำแหน่งของตัวอักษร
+Input:โปรแกรมรับข้อความ 5 ตัวอักษร
+Output:โปรแกรมควรแสดงผลเป็นการสลับตัวอักษรตัวหน้าไปที่ตัวท้ายและตัวท้ายต้องมาอยู่ในตำแหน่งของตัวหน้า
+Constraints: Outputต้องเป็นตัวอักษรตัวเล็กเท่านั้น
 
 ```
 
@@ -114,7 +121,8 @@ Step 3: และใช้วิธีString Slicing lndex [start:stop:step]
 
 ห้ามคัดลอกคำอธิบายจากคนอื่น
 
-```textวิธีสุดท้ายใช้เหมือนแผนแรก เพราะมันต้องกับความต้องการของโจทย์ ที่inputต้องเป็นตัวอักษร และoutput ต้องสลับตำแหน่ง จากหน้าไปหลัง
+```text
+วิธีสุดท้ายใช้เหมือนแผนแรก เพราะมันต้องกับความต้องการของโจทย์ ที่inputต้องเป็นตัวอักษร และoutput ต้องสลับตำแหน่ง จากหน้าไปหลัง
 
 
 ```
@@ -135,83 +143,94 @@ Step 3: และใช้วิธีString Slicing lndex [start:stop:step]
 
 ทำไมเลือก case นี้:
 
-```textเป็นตัวฬหญ่ทั้งหมด
+```text
+เป็นตัวฬหญ่ทั้งหมด
 
 ```
 
 Input:
 
-```textDAVID
+```text
+DAVID
 
 ```
 
 Expected output:
 
-```textdivad
+```text
+divad
 
 ```
 
 Actual output:
 
-```textdivad
+```text
+divad
 
 ```
 
 Result:
 
-```textPass
-Pass / Not Pass
+```text
+Pass
 ```
 
 ### Test Case 2
 
 ทำไมเลือก case นี้:
 
-```textตัวอักษรใหญ่แค่ตัวแรก
+```text
+ตัวอักษรใหญ่แค่ตัวแรก
 
 ```
 
 Input:
 
-```textOiver
+```text
+Oiver
 
 ```
 
 Expected output:
 
-```textrevio
+```text
+revio
 
 ```
 
 Actual output:
 
-```textrevio
+```text
+revio
 
 ```
 
 Result:
 
-```textPass
-Pass / Not Pass
+```text
+Pass
 ```
 
 ### Test Case 3
 
 ทำไมเลือก case นี้:
 
-```textตัวอักษรสลับตำแหน่งตั้งแต่แรก
+```text
+ตัวอักษรสลับตำแหน่งตั้งแต่แรก
 
 ```
 
 Input:
 
-```texteolhc
+```text
+eolhc
 
 ```
 
 Expected output:
 
-```textchloe
+```text
+chloe
 
 ```
 
@@ -223,8 +242,8 @@ Actual output:
 
 Result:
 
-```textPass
-Pass / Not Pass
+```text
+Pass
 ```
 
 ---
@@ -233,8 +252,8 @@ Pass / Not Pass
 
 ใช้ AI กับโจทย์นี้หรือไม่
 
-```textNo
-Yes / No
+```text
+No
 ```
 
 ถ้าใช้ AI ต้องทำไฟล์นี้ด้วย:
@@ -251,8 +270,8 @@ ai_reflection.md
 
 ได้ถามเพื่อน TA ผู้สอน หรือบุคคลอื่นเพื่อขอความช่วยเหลือในโจทย์นี้หรือไม่
 
-```textNo
-Yes / No
+```text
+No
 ```
 
 ถ้าใช่ ให้อธิบายสั้น ๆ ว่าได้รับความช่วยเหลือแบบใด
@@ -276,25 +295,27 @@ Yes / No
 
 ใครช่วยคุณ
 
-```textไม่มี
+```text
+-
 
 ```
 
 เขาช่วยอะไร
 
-```text-
+```text
+-
 
 ```
 
 คุณยังทำอะไรด้วยตนเอง
 
 ```text
-
+เขียน code เอง เลือก test cases สุดท้ายเอง รันโปรแกรมใน VS Code เอง และส่งเข้า OJ ด้วยตนเอง
 ```
 
 คุณคัดลอก code จากคนอื่นหรือไม่
 
-```textNo
+```text
 No
 ```
 
@@ -306,10 +327,10 @@ No
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. |Yes|
-| I understand my final code. |Yes|
-| I recorded the real OJ status. |Yes|
-| I did not copy AI-generated text directly into this file. |Yes|
-| I did not copy code from another person. |Yes|
-| If I received human help, I disclosed it in this file. |No|
-| I submitted the final code to the OJ by myself. |Yes|
+| I wrote this submission in my own words. | Yes |
+| I understand my final code. | Yes |
+| I recorded the real OJ status. | Yes |
+| I did not copy AI-generated text directly into this file. | Yes |
+| I did not copy code from another person. | Yes |
+| If I received human help, I disclosed it in this file. | No |
+| I submitted the final code to the OJ by myself. | Yes |
