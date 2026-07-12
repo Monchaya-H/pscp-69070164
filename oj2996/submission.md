@@ -236,7 +236,8 @@ chloe
 
 Actual output:
 
-```textchloe
+```text
+chloe
 
 ```
 
